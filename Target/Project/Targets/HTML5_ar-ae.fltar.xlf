@@ -5,14 +5,14 @@
   MadCap:translationStatus="untranslated">
   <file
     xml:space="preserve"
-    original="Synonyms.mcsyns"
+    original="HTML5.fltar"
     source-language="en-us"
     MadCap:file-filter=""
-    datatype="x-mcsyns"
-    target-language="ar-ae">
+    datatype="x-fltar"
+    target-language="ar">
     <header>
       <skl><external-file
-          href="Synonyms.mcsyns.skl" /></skl>
+          href="HTML5.fltar.skl" /></skl>
       <phase-group>
         <phase
           phase-name="translation"

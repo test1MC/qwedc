@@ -5,14 +5,14 @@
   MadCap:translationStatus="untranslated">
   <file
     xml:space="preserve"
-    original="Synonyms.mcsyns"
+    original="AutoIndexSet.flaix"
     source-language="en-us"
     MadCap:file-filter=""
-    datatype="x-mcsyns"
+    datatype="x-flaix"
     target-language="ar-ae">
     <header>
       <skl><external-file
-          href="Synonyms.mcsyns.skl" /></skl>
+          href="AutoIndexSet.flaix.skl" /></skl>
       <phase-group>
         <phase
           phase-name="translation"
@@ -31,7 +31,7 @@
         name="MadCap Statistics">
         <count
           count-type="total"
-          unit="segment">0</count>
+          unit="segment">2</count>
         <count
           count-type="x-subflow"
           unit="trans-unit">0</count>
@@ -42,6 +42,28 @@
         tool-version="11.0.7114.18563"
         tool-company="MadCap Software" />
     </header>
-    <body></body>
+    <body><trans-unit
+        id="1"
+        restype="x-phrase"
+        phase-name="pretrans"><source>This is my auto-indexed phrase</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="Phrase">This is my auto-indexed phrase</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-indexterm"
+        phase-name="pretrans"><source>Linked To This:And This</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            comment="IndexTerm">Linked To This:And This</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
   </file>
 </xliff>
